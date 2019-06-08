@@ -3,6 +3,12 @@
 An evented IO webserver in Emacs Lisp.
 
 
+== What is this fork? ==
+
+This is the version of Elnode that will be installed when you use MELPA. The
+original version of Elnode breaks on Emacs 26+. This fork keeps it functional.
+
+
 == Requirements ==
 
 Elnode will not run properly on anything less than Emacs 24.  Elnode

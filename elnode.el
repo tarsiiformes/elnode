@@ -1,9 +1,10 @@
 ;;; elnode.el --- a simple emacs async HTTP server -*- lexical-binding: t -*-
 
 ;; Copyright (C) 2010, 2011, 2012  Nic Ferrier
+;; Copyright (C) 2019  GitHub user "Jcaw"
 
 ;; Author: Nic Ferrier <nferrier@ferrier.me.uk>
-;; Maintainer: Nic Ferrier <nferrier@ferrier.me.uk>
+;; Maintainer: GitHub user "Jcaw"
 ;; Created: 5th October 2010
 ;; Keywords: lisp, http, hypermedia
 
@@ -25,7 +26,7 @@
 ;;; Source code
 ;;
 ;; elnode's code can be found here:
-;;   http://github.com/nicferrier/elnode
+;;   http://github.com/jcaw/elnode
 
 ;;; Style note
 ;;

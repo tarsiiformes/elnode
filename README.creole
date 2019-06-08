@@ -30,33 +30,20 @@ Elnode is a great for these things:
 
 == Installation ==
 
-Elnode is packaged in [[http://marmalade-repo.org/packages/elnode|marmalade]]. 
-
-For dealing with package repositories check out the
-[[http://www.emacswiki.org/emacs/ELPA|Emacs Wiki]] but the short version
-is to add the following to your {{{.emacs}}} or your
-{{{.emacs.d/init.el}}}:
+Elnode is available from [[https://melpa.org/#/elnode|MELPA]]. This the recommended way to install Elnode.
 
 {{{
-(add-to-list 
-   'package-archives
-   '("marmalade" . "http://marmalade-repo.org/packages/"))
+M-x package-install RET elnode RET
 }}}
 
-And then do:
-
-{{{
-M-x list-packages
-}}}
-
-find Elnode in the list and press {{{i}}} or {{{ENTER}}} to install it.
-
-If you don't want to use packages you can just install {{{elnode.el}}}
-on your {{{load-path}}} somewhere and:
+Then require as normal:
 
 {{{
 (require 'elnode)
 }}}
+
+You can also install Elnode manually. Add the file {{{elnode.el}}} to your load
+path, then require elnode.
 
 === Install from this repository ===
 

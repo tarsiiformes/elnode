@@ -9,6 +9,8 @@ Elnode will not run properly on anything less than Emacs 24.  Elnode
 requires Emacs 24's lexical binding as it makes extensive use of
 closures.
 
+It also relies on {{{cat}}}.
+
 
 == Rationale ==
 

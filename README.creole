@@ -30,7 +30,7 @@ Elnode is a great for these things:
 
 == Installation ==
 
-Elnode is available from [[https://melpa.org/#/elnode|MELPA]]. This the recommended way to install Elnode.
+Elnode is available from [[https://melpa.org/#/elnode|MELPA]]. This the recommended way to install Elnode on Emacs 26+.
 
 {{{
 M-x package-install RET elnode RET

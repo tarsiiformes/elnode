@@ -47,6 +47,8 @@ path, then require elnode.
 
 === Install from this repository ===
 
+//Please note - this information may be out of date for this MELPA version of Elnode//
+
 Installing from the sources is complex and requires the dependancies
 declared in the file {{{recipes/elnode}}}.
 
